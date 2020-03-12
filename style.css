@@ -1,0 +1,91 @@
+body { 
+	margin: 0; 
+	padding: 0; 
+	background-image: url("https://ae01.alicdn.com/kf/HTB1jJ2MdGAoBKNjSZSyq6yHAVXad/Laeacco-degrade-d-z-renk-a-k-mavi-portre-bebek-foto-raf-arka-plan-zelle-tirilmi.jpg_q50.jpg");
+}
+
+/* LINKS AND HEADINGS STYLING */
+
+h3 { clear: both; font-size: 1.9em; color: black; background: inherit; padding:0px 10px; margin: 20px;}
+.image { float: left; border: 2px solid inherit; padding: 3px; margin: 0 15px 10px 0; }
+
+/* CONTENT WRAPPER */
+
+#main { 
+	width: 900px; 
+	margin: 25px auto 0 auto; 
+}
+
+/* TOP LEFT LOGO */
+
+#logo { 
+	float: left; 
+	padding: 10px 0 10px 10px; 
+}
+	#logo h1 { color: black; background: #eee; }
+
+/* RIGHT INTRO SIDE */
+	
+#intro_right {
+	float: right;
+	width: 340px;
+	padding: 25px 280px 0 20px;
+	background: #eee url(images/intro.jpg) no-repeat;
+	color: black;
+	margin: 0 0 6px 0;
+	height: 174px;
+	border: 2px solid #eee;
+}
+	
+/* LEFT SIDE */
+	
+#left {
+	float: left;
+	width: 250px;
+}
+	.box {
+		padding: 4px 15px;
+		border: 1px solid white;
+		margin: 0 0 10px 0;
+		background: #eee;
+	}
+	.note {
+		padding: 15px 15px 20px 100px;
+		border: 1px solid white;
+		margin: 0 0 5px 0;
+		background: #eee;
+	}
+
+/* RIGHT SIDE */
+
+#right {
+	float: right;
+	width: 643px;
+}
+	.leftcol { 
+		float: left; 
+		padding: 12px 15px;
+		width: 285px; 
+		border:white 1px solid;
+		text-align: justify;
+		margin: 0 0 10px 0;
+	}
+	.rightcol { 
+		float: right; 
+		padding: 10px 15px;
+		width: 285px; 
+		border:white 1px solid;
+		margin: 0 0 10px 0;
+		}
+	.special {
+		clear: both;
+		margin:0px 0 20px 0;	
+		padding: 5px 20px;
+		border: 1px solid white;
+		background: #eee;
+		color: #444;
+	}
+
+/* FOOTER */
+
+#footer { clear: both; padding: 5px; border-top: 1px solid #ccc; }
